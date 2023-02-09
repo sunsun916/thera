@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/thera/static/css/main.d9741efe.css",
+    "main.js": "/thera/static/js/main.d8067ab2.js",
+    "static/media/top-bg.png": "/thera/static/media/top-bg.587116703b4e29820ca6.png",
+    "static/media/logo.svg": "/thera/static/media/logo.f83b962410e9b6115afdcab86ef590c3.svg",
+    "index.html": "/thera/index.html",
+    "main.d9741efe.css.map": "/thera/static/css/main.d9741efe.css.map",
+    "main.d8067ab2.js.map": "/thera/static/js/main.d8067ab2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9741efe.css",
+    "static/js/main.d8067ab2.js"
+  ]
+}
