@@ -1,5 +1,28 @@
 @charset "UTF-8";
 
-.globalNav  li {
+/* .globalNav  li {
  list-style: none;
+} */
+
+nav {
+  margin-left: 45px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
+
+nav ul li {
+  margin-right: 25px;
+}
+
+nav ul li a {
+  position: relative;
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 36px;
 }

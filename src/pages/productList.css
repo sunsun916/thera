@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+.subPage > .inner {
+  position: relative;
+  width: 1200px;
+  padding: 100px 0 150px;
+
+  /* grid flex 아이템 가운데 정렬 */
+  margin: 0 auto;
+
+}
+
+.subPage > .inner::after {
+  content: "";
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+
+#sct {
+  clear: both;
+  margin: 0;
+}
+

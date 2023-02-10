@@ -5,8 +5,8 @@ import "./nav.css"
 
 function Nav( ) {
   return (
-    <nav className='navigation'>
-      <ul className='globalNav'>
+    <nav>
+      <ul>
           <li>
             <Link to ="/">회사소개</Link>
           </li>
@@ -23,18 +23,16 @@ function Nav( ) {
             <Link to ="/">고객지원</Link>
           </li>
       </ul>
-
-      <ul className='registry'>
-          <li>
+{/* 
+      <div className='right'>
+        <div class="mbBox">
             <Link to ="/">로그인</Link>
-          </li>
-          <li>
             <Link to ="/">회원가입</Link>
-          </li>
-          <li>
+        </div>
+        <button className='btnSearch'>
             <Link to ="/"><FaSistrix /></Link>
-          </li>
-      </ul>
+        </button>
+      </div> */}
     </nav>
   );
 }

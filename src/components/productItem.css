@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+
+.mapBox {
+
+  /* grid 대신 flex로 정렬다시 해보기 */
+  display: grid;
+  /* grid-template-columns: 370px 370px 370px 370px; */
+	grid-template-columns: 370px 370px 370px;
+	grid-template-rows: 370px 370px 370px; 
+  gap:50px;
+}
+
+
+.sct {
+  clear: both;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  
+}
+
+.sct5 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+}
+
+
+.sct5 .sct-li:first-of-type {
+  margin-left: 0;
+}
+
+.sct5 .sct-li {
+  position: relative;
+  width: 370px;
+  text-align: center;
+  background: #f8f8f8;
+  padding: 0;
+  margin-left: 45px;
+  margin-bottom: 40px;
+}
+
+.sct5 .sct-li .sctImg {
+  display: flex;
+  justify-content:center;
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%; */
+}
+
+/* .sct5 .sct-li .sctImg .imgBox {
+  width: 33%;
+
+} */
+
+.sct5 .sct-li > .sctImg a {
+  display: block;
+  width: 100%;
+  padding: 70px 0 0;
+}
+
+.sct5 .sct-li .sctImg .sct-ct-wrap {
+  display: block;
+  padding: 50px 0;
+}
+
+.sct5 .sct-li .sctImg .sct-ct-wrap h3 {
+  position: relative;
+  display: inline-block;
+  font-size: 23px;
+  font-weight: 400;
+  color: #111;
+  letter-spacing: -1px;
+  line-height: 33px;
+  z-index: 10;
+}
+
+
+.sct5 .sct-li .sctImg .sct-ct-wrap span {
+  display: block;
+  font-size: 15px;
+  font-weight: 700;
+  color: #bbbbbb;
+  margin-top: 5px;
+}
+
