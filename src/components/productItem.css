@@ -1,33 +1,32 @@
 @charset "UTF-8";
 
-
 .mapBox {
-
-  /* grid 대신 flex로 정렬다시 해보기 */
+  /* grid 대신 flex로 정렬다시 해보기 
   display: grid;
-  /* grid-template-columns: 370px 370px 370px 370px; */
-	grid-template-columns: 370px 370px 370px;
-	grid-template-rows: 370px 370px 370px; 
-  gap:50px;
+  grid-template-columns: 370px 370px 370px;
+  grid-template-rows: 370px 370px 370px;
+  gap: 50px;
+  */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-
 
 .sct {
   clear: both;
   margin: 0;
   padding: 0;
   list-style: none;
-  
 }
 
 .sct5 {
-  width: 100%;
+  /* width: 100%; */
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
   justify-content: center;
+  margin-left: 40px;
 }
-
 
 .sct5 .sct-li:first-of-type {
   margin-left: 0;
@@ -45,7 +44,7 @@
 
 .sct5 .sct-li .sctImg {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   /* display: grid;
   grid-template-columns: repeat(3, 1fr);
   width: 100%; */
@@ -78,7 +77,6 @@
   z-index: 10;
 }
 
-
 .sct5 .sct-li .sctImg .sct-ct-wrap span {
   display: block;
   font-size: 15px;
@@ -86,4 +84,3 @@
   color: #bbbbbb;
   margin-top: 5px;
 }
-

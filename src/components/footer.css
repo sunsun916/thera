@@ -1,0 +1,210 @@
+@charset "UTF-8";
+
+footer {
+  display: block;
+}
+
+#ft {
+  width: 100%;
+  background-color: #1f2525;
+}
+
+#ft .ft-wrap {
+  width: 1200px;
+  display: flex;
+  align-items: stretch;
+  padding-bottom: 60px;
+  margin: 0 auto;
+}
+
+#ft .ft-wrap .fr-left {
+  width: 280px;
+  border-right: 1px solid #313131;
+}
+
+#ft .ft-wrap > div {
+  padding-top: 60px;
+}
+
+#ft .ft-wrap .fr-left .logo a {
+  display: block;
+  width: 182px;
+  height: 40px;
+  background: url(../assets/images/logo.svg) no-repeat center center;
+  background-size: contain;
+  text-indent: -9999px;
+}
+
+#ft .ft-wrap .fr-left > strong {
+  display: block;
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 30px;
+}
+
+#ft .ft-wrap .fr-left > a {
+  display: block;
+  font-size: 30px;
+  font-weight: 700;
+  color: #a7fffd;
+  letter-spacing: -0.5px;
+  line-height: 30px;
+  font-family: "Play";
+  margin-top: 10px;
+}
+
+#ft .ft-wrap .fr-left > ul {
+  margin-top: 15px;
+}
+
+#ft .ft-wrap .fr-left > ul li {
+  font-size: 12px;
+  font-weight: 400;
+  color: #808080;
+  line-height: 21px;
+}
+
+#ft .ft-wrap .fr-left > ul li span {
+  display: inline-block;
+  width: 70px;
+}
+
+#ft .ft-wrap .fr-center {
+  width: 560px;
+  padding-left: 60px;
+  border-right: 1px solid #313131;
+}
+
+#ft .ft-wrap .fr-center > ul li {
+  font-size: 13px;
+  font-weight: 400;
+  color: #777777;
+  margin-bottom: 10px;
+}
+
+#ft .ft-wrap .fr-center > ul li span {
+  display: inline-block;
+  width: 100px;
+  font-weight: 700;
+  color: #fff;
+}
+
+#ft .ft-wrap .fr-center > ol {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#ft .ft-wrap .fr-center > ol li:first-of-type {
+  padding-left: 0;
+}
+
+#ft .ft-wrap .fr-center > ol li {
+  position: relative;
+  padding: 0 20px;
+}
+
+#ft .ft-wrap .fr-center > ol li a {
+  display: block;
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+#ft .ft-wrap .fr-center > ol li::after {
+  position: absolute;
+  right: 0;
+  top: 4px;
+  width: 1px;
+  height: 13px;
+  background-color: #3d4040;
+  content: "";
+  display: block;
+}
+
+#ft .ft-wrap .fr-right {
+  width: 360px;
+  padding-left: 60px;
+}
+
+#ft .ft-wrap .fr-right .family-site-wrap {
+  margin-top: 95px;
+}
+
+#ft .ft-wrap .fr-right .family-site-wrap h3 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+
+#ft .ft-wrap .fr-right .family-site-wrap h3 strong {
+  font-weight: 700;
+}
+
+#ft .ft-wrap .fr-right .family-site-wrap h3 b {
+  font-weight: 700;
+  color: #a4faf8;
+}
+
+#ft .ft-wrap .fr-right .family-site {
+  position: relative;
+  width: 300px;
+}
+
+#ft .ft-wrap .fr-right .family-site dt {
+  background-color: #121515;
+  border-radius: 3px;
+}
+
+#ft .ft-wrap .fr-right .family-site dt > a {
+  position: relative;
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  color: #979797;
+  line-height: 50px;
+  padding: 0 25px;
+}
+
+#ft .ft-wrap .fr-right .family-site dt > a::after {
+  position: absolute;
+  right: 25px;
+  top: 23px;
+  width: 9px;
+  height: 7px;
+  background: url(../assets/images/ico_farrow.png) no-repeat center center;
+  background-size: contain;
+  content: "";
+  display: inline-block;
+}
+
+#ft .ft-wrap .fr-right .family-site dd {
+  display: none;
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+  z-index: 2;
+}
+
+#ft .ft-wrap .fr-right .family-site dd ul {
+  border: 1px solid #121515;
+}
+
+#ft .ft-wrap .fr-right .family-site dd ul li {
+  border-bottom: 1px solid #121515;
+}
+
+#ft .ft-wrap .fr-right .family-site dd ul li a {
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  color: #979797;
+  line-height: 50px;
+  padding: 0 25px;
+  background-color: #121515;
+  transition: all 0.2s ease-in-out;
+}
