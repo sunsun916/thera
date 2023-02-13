@@ -2,14 +2,33 @@ import { Link } from "react-router-dom";
 import Nav from './Nav';
 import logo from '../assets/images/logo.svg'
 import "./header.css"
+import React, {useState, useEffect} from 'react';
 import { FaSistrix } from 'react-icons/fa';
 import SubBanner from "./SubBanner";
 
 function Header( ) {
+
+  const [scrollPosition, setScrollPosition] = useState(0);
+  const updateScroll = () => {
+      setScrollPosition(window.scrollY || document.documentElement.scrollTop);
+  }
+  useEffect(()=>{
+      window.addEventListener('scroll', updateScroll);
+  });
+
   return (
+
     <header id="hd">
-      
-      <div className="headerWrap">
+    
+    {/* </header><header id="hd" className={scrollPosition < 100 ? "original_header" : "change_header"}> */}
+
+  {/* -------header bar 색상변경 시작--------  }
+  <div className={scrollPosition < 100 ? "original_header" : "change_header"}>
+        </div>
+      {/* --------header bar 색상변경 끝 div--------- */} 
+    
+      <div className="headerWrap">    
+          
         <div className="left">
             <h1 className="logo">
             <Link to ="/">
@@ -34,6 +53,9 @@ function Header( ) {
        </div>
    
     </div>   
+
+
+
     </header>
   );
 }

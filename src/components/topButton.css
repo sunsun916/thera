@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.scrollContainer{
+  position: fixed;
+  right: 5%;
+  bottom: 5%;
+  z-index: 1;
+}
+#top{
+  width: 60px;
+  height: 60px;
+  padding :15px 10px;
+  /* border: 1px solid rgb(210, 204, 193); */
+  outline: none;
+  cursor: pointer;
+  background: url(../assets/images/ico_fix_top.svg) no-repeat center center, #fff;
+  background-size: 18px;
+  box-shadow: 0 5px 15px 0 rgb(0 0 0 / 10%);
+}
+#top:hover{
+  color :rgb(142, 26, 26);
+}

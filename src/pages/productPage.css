@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+.subPage > .innerSub {
+  position: relative;
+    width: 1200px;
+    padding: 100px 0 150px;
+}
+
+#sit {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#sit-ov-wrap {
+  width: 100%;
+  margin: 0 auto 80px;
+}
+
+#pd-info {
+  position: relative;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+#pd-info > .pd-price {
+  position: absolute;
+  right: 0;
+  bottom: 7px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #111;
+}
+
+#pd-info > span {
+  display: block;
+  font-size: 15px;
+  font-weight: 700;
+  color: #4f9da4;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+#pd-info > h3 {
+  width: 75%;
+  font-size: 45px;
+  font-weight: 700;
+  color: #111;
+  letter-spacing: -2px;
+  line-height: 50px;
+}
+
+#pd-info > .pd-price strong {
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: -1.5px;
+  margin-right: 5px;
+}
+
+#sit-pvi {
+  position: relative;
+  width: 100%;
+}
+/* 
+#sit-pvi-big {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+#sit-pvi-big a {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  opacity: 0;
+  z-index: 1;
+  pointer-events: none;
+  transition: all 0.3s ease-in-out;
+}
+
+#sit-pvi-big a.visible {
+  opacity: 1;
+  z-index: 10;
+  pointer-events: all;
+} */

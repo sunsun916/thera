@@ -15,7 +15,28 @@ header {
   top: 0;
   width: 100%;
   z-index: 990;
+  background-color: transparent;
 }
+
+.original_header {
+  position: fixed;
+  color:#000;
+  background-color: transparent;
+  width: 100%;
+  height: 80px;
+  top: 0;
+}
+
+.change_header {
+  position: fixed;
+  color:#000;
+  background-color: #fff;
+  width: 100%;
+  height: 80px;
+  top: 0;
+  border-bottom: 1px solid #EBEBEB;
+}
+
 #hd .headerWrap {
   position: relative;
   width: 95%;

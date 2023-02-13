@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+.scrollCartContainer{
+  position: fixed;
+  right: 5%;
+  bottom: 12%;
+  z-index: 1;
+}
+#cart{
+  width: 60px;
+  height: 60px;
+  padding :15px 10px;
+  /* border: 1px solid rgb(210, 204, 193); */
+  outline: none;
+  cursor: pointer;
+  background: url(../assets/images/ico_fix_cart.svg) no-repeat center center, #1e919b;
+}

@@ -10,7 +10,7 @@ function ProductList() {
     <section className="subPage">
       <div className="inner">
           <div id="sct">
-              <div className="hhtml"></div>
+              <div className="sct-hhtml"></div>
               
               <div className="mapBox">
                   {TheraItems.map((item) => (

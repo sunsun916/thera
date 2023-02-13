@@ -183,6 +183,7 @@ footer {
 }
 
 #ft .ft-wrap .fr-right .family-site dd {
+  /* 드롭다운 리스트 클릭하면 보이도록 display:none로 감추기 */
   display: none;
   position: absolute;
   bottom: 50px;

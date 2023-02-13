@@ -11,7 +11,7 @@ function ProductItem({item}) {
           <div className="sctImg">
 
             {/* <div className="imgBox"> */}
-                <Link to={`/products/${item.id}`}>
+                <Link to={`/shop/${item.id}`}>
                   <img src={`${path}/images/${item.imgUrl}.png`} alt={item.title} />
            
                   <div className="sct-ct-wrap">

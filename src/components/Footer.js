@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "../components/footer.css";
+import Aside from "./Aside";
 
 function Footer() {
   return (
@@ -64,6 +65,7 @@ function Footer() {
               <br />
               <b>Products</b>
             </h3>
+
             <dl className="family-site">
               <dt>
                 <Link to="#">선택</Link>
@@ -88,10 +90,12 @@ function Footer() {
                   </li>
                 </ul>
               </dd>
-            </dl>
+            </dl> 
+
           </div>
         </div>
       </div>
+      <Aside />
     </footer>
   );
 }
