@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import { FaSistrix } from 'react-icons/fa';
+// import { FaSistrix } from 'react-icons/fa';
 import "./nav.css"
 
 function Nav( ) {
