@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/thera/static/css/main.5ffd9097.css",
-    "main.js": "/thera/static/js/main.472b5142.js",
+    "main.js": "/thera/static/js/main.0d6c6ffc.js",
     "static/media/top-bg.png": "/thera/static/media/top-bg.587116703b4e29820ca6.png",
     "static/media/therabig01.png": "/thera/static/media/therabig01.5e0b63d7ac2df5b56c3e.png",
     "static/media/logo.svg": "/thera/static/media/logo.f83b962410e9b6115afdcab86ef590c3.svg",
@@ -13,10 +13,10 @@
     "static/media/ico_fix_top.svg": "/thera/static/media/ico_fix_top.08f9c87680add65412dd.svg",
     "index.html": "/thera/index.html",
     "main.5ffd9097.css.map": "/thera/static/css/main.5ffd9097.css.map",
-    "main.472b5142.js.map": "/thera/static/js/main.472b5142.js.map"
+    "main.0d6c6ffc.js.map": "/thera/static/js/main.0d6c6ffc.js.map"
   },
   "entrypoints": [
     "static/css/main.5ffd9097.css",
-    "static/js/main.472b5142.js"
+    "static/js/main.0d6c6ffc.js"
   ]
 }
