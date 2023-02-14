@@ -16,12 +16,14 @@ function App() {
       <SubBanner />
 
       <Routes>
+
        <Route path="/" element={<Shop />} />
        <Route path="/shop">
           <Route index element={<ProductList />} />
           <Route path=":itemId" element={<ProductPage />} /> 
        </Route>
         <Route path="/cartList" element={<CartList />} />
+        
       </Routes> 
 
       <Footer />

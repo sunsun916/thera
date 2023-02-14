@@ -4,31 +4,41 @@
       "id":"0",
       "title":"테라 셀레늄",
       "des": "THERA Selenium",
-      "imgUrl":"thera01"
+      "imgUrl":"thera01",
+      "ml" : "(60ml)",
+      "price" : "143,000"
     },
     {
       "id":"1",
       "title":"테라 비타민C 플러스 아연",
       "des": "THERA Vitamin C PLUS Zinc",
-      "imgUrl":"thera02"
+      "imgUrl":"thera02",
+      "ml" : "(80ml, 80ml+60ml, 60ml)",
+      "price" : "68,000"
     },
     {
       "id":"2",
       "title":"테라 커큐베라트롤",
       "des": "THERA Curcuveratrol",
-      "imgUrl":"thera03"
+      "imgUrl":"thera03",
+      "ml" : "(60ml)",
+      "price" : "105,000"
     },
     {
       "id":"3",
       "title":"테라 라스베라-엑스",
       "des": "THERA Resvera-X",
-      "imgUrl":"thera04"
+      "imgUrl":"thera04",
+      "ml" : "(60ml)",
+      "price" : "150,000"
     },
     {
       "id":"4",
       "title":"테라 미슬토",
       "des": "THERA Mistletoe",
-      "imgUrl":"thera05"
+      "imgUrl":"thera05",
+      "ml" : "(60ml)",
+      "price" : "295,000"
     }
   ]
 }
